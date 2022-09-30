@@ -8,3 +8,11 @@ body {
     align-items: center;
 }
 
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+}
