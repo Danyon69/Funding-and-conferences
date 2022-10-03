@@ -11,7 +11,6 @@ body {
 a {
     text-decoration: none;
     color: #F9FAF8;
-    font-size: 28px;
     font-weight: bold;
 }
 
@@ -68,6 +67,7 @@ a {
 
 .text {
     z-index: 2;
+    font-size: 30px;
 }
 
 img {
