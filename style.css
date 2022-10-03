@@ -30,15 +30,13 @@ a {
     flex-wrap: wrap;
     max-width: 90%;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 .content {
     min-width: 300px;
-    max-height: 400px;
-    /* height: auto; */
+    max-height: auto;
     position: relative;
-    
 }
 
 .colour {
@@ -48,21 +46,23 @@ a {
     width: 100%;
     height: 100%;
     background-color: rgba(72,72,72,.4);
-    transition: all 0.2s linear;
-}
-
-.colour:hover {
-    background-color: #35598b;
-    opacity: 0.6;
 }
 
 .opp-title {
-    /* float: left; */
-    align-items: center;
-    position: absolute;
     display: flex;
+    position: absolute;
     left: 0px;
     top: 0px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s linear;
+}
+
+.opp-title:hover {
+    background-color: #35598b;
+    opacity: 0.6;
 }
 
 img {
