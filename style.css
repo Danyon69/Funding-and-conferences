@@ -24,27 +24,7 @@ a {
     font-weight: bold;
     justify-content: center;
     align-items: center;
-    /* background: url(images/index-header-image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
     z-index: 0;
-    /* color: white; */
-}
-
-.back-color {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    background-color: #0c356e;
-    opacity: 0.8;
-}
-
-.title {
-    /* color: white; */
-    /* z-index: 2; */
 }
 
 .about {
@@ -53,8 +33,6 @@ a {
     text-align: justify;
     padding-top: 50px;
     padding-bottom: 60px;
-    /* color: white; */
-    /* z-index: 2; */
 }
 
 .container {
